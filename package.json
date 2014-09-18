@@ -1,0 +1,45 @@
+{
+  "name": "letter-bitmap",
+  "version": "1.0.0",
+  "description": "Generate a single-channel bitmap for an individual character of a given font",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "beefy example.js:bundle.js --open",
+    "prepublish": "browserify example.js -o bundle.js"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "assert": "^1.1.2",
+    "canvas-pixels": "0.0.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^5.11.2",
+    "ndarray": "^1.0.15",
+    "ndarray-canvas": "0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/letter-bitmap.git"
+  },
+  "keywords": [
+    "font",
+    "letter",
+    "data",
+    "generate",
+    "canvas",
+    "array",
+    "bitmap",
+    "image",
+    "mask"
+  ],
+  "homepage": "https://github.com/hughsk/letter-bitmap",
+  "bugs": {
+    "url": "https://github.com/hughsk/letter-bitmap/issues"
+  }
+}
